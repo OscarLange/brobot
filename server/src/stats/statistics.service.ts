@@ -1,6 +1,6 @@
-import {Injectable} from '@nestjs/common';
-import {Statistics} from './statistics.model';
-import {StatisticsDao} from './statistics.dao';
+import { Injectable } from '@nestjs/common';
+import { Statistics } from './statistics.model';
+import { StatisticsDao } from './statistics.dao';
 
 @Injectable()
 export class StatisticsService {

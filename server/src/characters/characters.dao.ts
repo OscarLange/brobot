@@ -1,6 +1,6 @@
-import {Character, Trait} from './characters.model';
-import {Injectable} from '@nestjs/common';
-import {todo} from '../util';
+import { Character, Trait } from './characters.model';
+import { Injectable } from '@nestjs/common';
+import { todo } from '../util';
 
 export abstract class CharactersDao {
   abstract add(char: Character);
@@ -69,7 +69,9 @@ export class MockCharactersDao extends CharactersDao {
   }
 
   findById(userId: string): Character | null {
-    return this.chars.find((c) => c.userId == userId);
+    const c = this.chars.find((c) => c.userId == userId);
+    if (c == undefined) return null;
+    else return c;
   }
 
   adaptTrait(id: string, trait: Trait, apply: number) {

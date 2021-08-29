@@ -1,7 +1,7 @@
-import {Module} from '@nestjs/common';
-import {StatisticsController} from './statistics.controller';
-import {StatisticsService} from './statistics.service';
-import {MongoDbStatisticsDao, StatisticsDao} from './statistics.dao';
+import { Module } from '@nestjs/common';
+import { StatisticsController } from './statistics.controller';
+import { StatisticsService } from './statistics.service';
+import { MongoDbStatisticsDao, StatisticsDao } from './statistics.dao';
 
 @Module({
   imports: [],

@@ -1,4 +1,4 @@
-import {UserId} from '../characters/characters.model';
+import { UserId } from '../characters/characters.model';
 
 export class Message {
   author: UserId;

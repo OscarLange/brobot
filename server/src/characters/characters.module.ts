@@ -1,7 +1,7 @@
-import {Module} from '@nestjs/common';
-import {CharactersController} from './characters.controller';
-import {CharactersService} from './characters.service';
-import {CharactersDao, MongoDbCharactersDao} from './characters.dao';
+import { Module } from '@nestjs/common';
+import { CharactersController } from './characters.controller';
+import { CharactersService } from './characters.service';
+import { CharactersDao, MongoDbCharactersDao } from './characters.dao';
 
 @Module({
   imports: [],

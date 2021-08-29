@@ -1,6 +1,6 @@
-import {Body, Controller, ParseArrayPipe, Put} from '@nestjs/common';
-import {MessagesService} from './messages.service';
-import {Message} from './messages.model';
+import { Body, Controller, ParseArrayPipe, Put } from '@nestjs/common';
+import { MessagesService } from './messages.service';
+import { Message } from './messages.model';
 
 @Controller('messages')
 export class MessagesController {

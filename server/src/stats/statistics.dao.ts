@@ -1,6 +1,6 @@
-import {TimeSeries, TopStatistics} from './statistics.model';
-import {Injectable} from '@nestjs/common';
-import {todo} from '../util';
+import { TimeSeries, TopStatistics } from './statistics.model';
+import { Injectable } from '@nestjs/common';
+import { todo } from '../util';
 
 export abstract class StatisticsDao {
   abstract top(): TopStatistics;

@@ -1,7 +1,7 @@
-import {Test, TestingModule} from '@nestjs/testing';
-import {MessagesController} from './messages.controller';
-import {MessagesService} from './messages.service';
-import {Message} from './messages.model';
+import { Test, TestingModule } from '@nestjs/testing';
+import { MessagesController } from './messages.controller';
+import { MessagesService } from './messages.service';
+import { Message } from './messages.model';
 
 // TODO moar tests
 

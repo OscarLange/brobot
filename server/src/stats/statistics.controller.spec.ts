@@ -1,7 +1,7 @@
-import {Test, TestingModule} from '@nestjs/testing';
-import {StatisticsController} from './statistics.controller';
-import {StatisticsService} from './statistics.service';
-import {MockStatisticsDao, StatisticsDao} from './statistics.dao';
+import { Test, TestingModule } from '@nestjs/testing';
+import { StatisticsController } from './statistics.controller';
+import { StatisticsService } from './statistics.service';
+import { MockStatisticsDao, StatisticsDao } from './statistics.dao';
 
 describe('StatisticsController', () => {
   let ctrl: StatisticsController;

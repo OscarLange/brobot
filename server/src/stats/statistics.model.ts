@@ -1,4 +1,4 @@
-import {Character} from '../characters/characters.model';
+import { Character } from '../characters/characters.model';
 
 export interface RankingEntry {
   character: Character;
